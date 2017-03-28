@@ -113,6 +113,7 @@ function setup() {
     
 function draw() {
     fill(r, g, b)
+    stroke('black')
     rect(x, 0, width/16, height/12);
     rect(x2, 440, width/16, height/12);
     rect(0, y, width/16, height/12);
@@ -147,6 +148,7 @@ function draw() {
       colorupdateb *= -1;
     }
     noFill()
+    stroke(r, g, b)
     ellipse(width/2, height/2, mouseX, mouseX)
     
 }
