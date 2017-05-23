@@ -47,3 +47,9 @@ ol{
     font-family: Inknut Antiqua;
     font-size: 18px;
 }
+
+#container {
+    width: 640px;
+    margin:0 auto;
+    padding:0 1em;
+}
